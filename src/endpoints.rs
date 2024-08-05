@@ -48,6 +48,7 @@ pub trait PublicEndpoints {
 pub trait PrivateEndpoints {
     nullary_method_defs! {
         balance,
+        balance_extended,
     }
 
     unary_method_defs! {

@@ -155,6 +155,7 @@ impl PublicEndpoints for PrivateApiClient {
 impl PrivateEndpoints for PrivateApiClient {
     nullary_private_method_impls! {
         balance: "Balance",
+        balance_extended: "BalanceEx",
     }
 
     unary_private_method_impls! {
